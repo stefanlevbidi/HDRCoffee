@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
   background-color: black;
+  color: white;
 }
 * {
 	font-family: 'Roboto', sans-serif;
@@ -171,3 +172,24 @@ article {
   margin: 0 auto;
   padding: 10px;
 }
+
+.beanbag {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.header {
+text-align: center;
+font-size: 3em;
+}
+
+.pheader {
+  text-align: center;
+
+  }
+  
+
