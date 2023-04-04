@@ -110,6 +110,7 @@ figcaption {
   height: 0;
 }
 
+
 .clearfix {
   display: inline-block;
 }
@@ -723,6 +724,7 @@ welcome
   justify-content: center;
   background-image: url(../images/banner-bg.png);
   background-repeat: no-repeat;
+  background-position: center;
 /*
 TRY IT ... with or without CENTER CENTER
   background-position: center center; 
@@ -765,6 +767,8 @@ TRY IT ... with or without CENTER CENTER
 }
 
 @media (max-width: 991px) {
+
+
   .welcome-area .header-text {
     top: 55% !important;
     transform: perspective(1px) translateY(-60%) !important;
@@ -800,6 +804,7 @@ TRY IT ... with or without CENTER CENTER
 }
 
 @media (max-width: 765px) {
+
   .welcome-area {
     margin-bottom: 100px;
   }
@@ -845,6 +850,9 @@ about
 }
 
 @media (max-width: 765px) {
+
+
+
   #about {
     padding: 20px 0px 120px 0px;
   }
@@ -892,6 +900,11 @@ about
 #about2 ul li .text {
   margin-left: 80px;
 }
+
+#kopi {
+  float: right;    
+   margin: 0 15px 0 0;
+  }
 
 #about2 ul li .text h6 {
   padding-top: 12px;
@@ -965,6 +978,7 @@ services
 }
 
 @media screen and (max-width: 920px) {
+
   .service-item {
     margin: 0px 30px !important;
   }
@@ -1083,6 +1097,9 @@ services
 }
 
 @media screen and (max-width: 1320px) {
+
+
+
   .owl-carousel .owl-nav {
     display: none !important;
   }
@@ -1134,6 +1151,8 @@ accordions
 }
 
 @media (max-width: 765px) {
+
+  
   #frequently-question .left-text {
     margin-bottom: 60px;
   }
@@ -1150,6 +1169,7 @@ accordions
   border-bottom: 1px solid #fff;
 }
 @media screen and (min-width: 768px) {
+
   .accordion-head {
     padding: 1rem;
     font-size: 1.2rem;
@@ -1262,6 +1282,7 @@ contact
 }
 
 @media (max-width: 765px) {
+
   .contact-form {
     padding: 60px;
     margin-top: -7px;
@@ -1360,6 +1381,7 @@ footer .copyright {
 }
 
 @media (max-width: 991px) {
+
   footer .copyright {
     text-align: center;
   }
@@ -1452,3 +1474,6 @@ preloader
     opacity: 0;
   }
 }
+
+
+ 
