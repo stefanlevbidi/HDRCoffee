@@ -1,8 +1,5 @@
 /*
 
-ART FACTORY
-
-https://templatemo.com/tm-537-art-factory
 
 */
 
@@ -191,12 +188,12 @@ body {
 }
 
 ::selection {
-  background: #ff589e;
+  background: #d88200;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #ff589e;
+  background: #b76b00;
   color: #fff;
 }
 
@@ -221,7 +218,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #f55858;
+  background-color: #c56a01;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -229,10 +226,12 @@ a.main-button-slider {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  margin: 20%;
 }
 
 a.main-button-slider:hover {
   background-color: #0088e8;
+  cursor: pointer;
 }
 
 a.main-button {
@@ -247,10 +246,12 @@ a.main-button {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 
 a.main-button:hover {
   background-color: #0088e8;
+  cursor: pointer;
 }
 
 button.main-button {
@@ -272,6 +273,7 @@ button.main-button {
 
 button.main-button:hover {
   background-color: #0088e8;
+  cursor: pointer;
 }
 
 .section-heading h2 {
@@ -706,6 +708,7 @@ header
 }
 
 @media (min-width: 992px) {
+
   .header-area .main-nav .nav {
     display: flex !important;
   }
@@ -752,8 +755,9 @@ TRY IT ... with or without CENTER CENTER
   font-size: 64px;
   line-height: 80px;
   letter-spacing: 1.4px;
-  margin-bottom: 30px;
+  margin-bottom: 300px;
   color: #fff;
+  text-align: center;
 }
 
 .welcome-area .header-text p {
@@ -764,6 +768,7 @@ TRY IT ... with or without CENTER CENTER
   letter-spacing: 0.25px;
   margin-bottom: 40px;
   position: relative;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -774,10 +779,13 @@ TRY IT ... with or without CENTER CENTER
     transform: perspective(1px) translateY(-60%) !important;
   }
   .welcome-area .header-text h1 {
-    font-size: 36px;
-    line-height: 50px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 80px;
+    letter-spacing: 1.4px;
+    margin-bottom: 300px;
     color: #fff;
-    margin-bottom: 15px;
+    text-align: center;
   }
   .welcome-area .header-text h1 span {
     color: #fff;
@@ -794,9 +802,13 @@ TRY IT ... with or without CENTER CENTER
     transform: perspective(1px) translateY(-60%) !important;
   }
   .welcome-area .header-text h1 {
-    font-size: 36px;
-    line-height: 50px;
-    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 80px;
+    letter-spacing: 1.4px;
+    margin-bottom: 300px;
+    color: #fff;
+    text-align: center;
   }
   .welcome-area .header-text p {
     margin-bottom: 30px;
@@ -815,6 +827,7 @@ TRY IT ... with or without CENTER CENTER
   }
   .welcome-area .header-text .buttons {
     display: none;
+
   }
   .welcome-area .header-text h1 {
     font-weight: 600;
@@ -987,6 +1000,7 @@ services
 .service-item:hover .icon,
 .service-item:hover a.main-button {
   background-color: #ff9900;
+  cursor: pointer;
 }
 
 .service-item .icon {
@@ -1039,6 +1053,7 @@ services
 .service-item a.main-button {
   margin-top: 30px;
   display: inline-block;
+  cursor: pointer;
 }
 
 .owl-carousel .owl-dots {
